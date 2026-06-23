@@ -31,8 +31,8 @@ const Header = () => {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
           {/* Top Left Text */}
-          <div className="hidden md:block w-32">
-            <span className="text-[11px] uppercase tracking-[2px] text-ink">Premium</span>
+          <div className="w-32 flex items-center">
+            <span className="text-[11px] uppercase tracking-[2px] text-ink hidden md:inline">Premium</span>
           </div>
 
           {/* Logo */}
